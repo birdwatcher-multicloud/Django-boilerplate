@@ -29,6 +29,6 @@ docker-compose run --rm app sh -c "python manage.py createsuperuser"
 
 ## Important links for local use
 
-- The swagger documentation is available via the following link: http://127.0.0.1/api/schema/swagger-ui/
-- The admin interface is available at this link: http://127.0.0.1/admin/
-- The redoc documentation is available at this link: https://127.0.0.1/api/schema/redoc/
+- The swagger documentation is available via the following link: http://127.0.0.1:8000/api/schema/swagger-ui/
+- The admin interface is available at this link: http://127.0.0.1:8000/admin/
+- The redoc documentation is available at this link: https://127.0.0.1:8000/api/schema/redoc/
